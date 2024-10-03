@@ -1,0 +1,38 @@
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    width: 100%;  
+    height: 100%;  
+      
+    justify-content: center;  
+    align-items: center;  
+    background-color:pink 
+}  
+  
+.photo-wall {  
+   
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 10px; /* 设置照片之间的间距 */  
+    padding-left: 180px;  
+   
+}  
+  
+.photo {  
+    width: calc(20%); 
+    height: 300px; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    transition: transform 0.3s ease;  
+   margin-left: 20px;
+}  
+.photo img {  
+    width:  calc(100%);/* 或任何你想要的宽度 */  
+    height: 300px; /* 保持宽高比 */  
+}
+  
+.photo:hover {  
+    transform: scale(1.05); /* 鼠标悬停时放大图片 */  
+}  

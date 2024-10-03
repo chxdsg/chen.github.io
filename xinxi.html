@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html lang="china">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>个人信息表格</title> 
+<link rel="stylesheet" href="http://at.alicdn.com/t/c/font_4696645_qovnblnc8rd.css"> 
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/xinxi.css">  
+</head>  
+<body>  
+<div class="info-table">  
+    <table>  
+        <thead>  
+            <tr>  
+                <th>姓名</th>  
+                <th>年龄</th>  
+                <th>职业</th>  
+                <th>联系方式</th>  
+                <th>操作</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            <tr>  
+                <td>小猫</td>  
+                <td>30</td>  
+                <td>软件工程师</td>  
+                <td>1314520</td>  
+                <td><button onclick="editInfo(this)">编辑</button></td>  
+            </tr>  
+            <!-- 更多的行可以在这里添加 -->  
+        </tbody>  
+    </table>  
+</div>  
+<br></br>
+<script src="js/xinxi.js"></script>  
+
+<div class="container">  
+    <h1>我的爱好</h1>  
+    <div class="hobbies-section">  
+        <div class="hobby">  
+            <h2>阅读</h2>  
+            <p>我热爱阅读各种类型的书籍，从科幻小说到历史文献，每一本书都是一个新的世界。</p>  
+            <img src="./images/13.jpg" alt="阅读书籍">  
+        </div>  
+        <div class="hobby">  
+            <h2>摄影</h2>  
+            <p>摄影是我捕捉生活美好瞬间的方式。我喜欢在周末带着相机去户外，记录下大自然的壮丽景色。</p>  
+            <img src="./images/14.jpg" alt="摄影相机">  
+        </div>  
+        <div class="hobby">  
+            <h2>编程</h2>  
+            <p>编程是我表达创意和解决问题的方式。我热衷于学习新的编程语言和技术，不断挑战自己。</p>  
+            <img src="./images/15.jpg" alt="编程代码">  
+        </div>  
+        <!-- 可以继续添加更多爱好 -->  
+    </div>  
+</div>  
+<div class="xialan">
+    <ul>
+       <li>
+           <a href="./photo.html">
+           <i class="iconfont icon-zhaopianqiang"></i>
+           <p>照骗墙</p>
+          </a>
+       </li>
+       <li class="active">
+           <a href="./xinxi.html">
+           <i class="iconfont icon-gerenxinxi_o"></i>
+           <p>个人信息</p>
+           </a>
+       </li>
+       <li>
+           <a href="./gouwuche.html">
+           <i class="iconfont icon-gouwuche"></i>
+           <p>购物车</p>
+           </a>
+       </a>
+       </li>
+       <li>
+           <a href="./mine.html">
+           <i class="iconfont icon-wode"></i>
+           <p>我的</p>
+           </a>
+       </li>
+    </ul>
+</div>
+</body>  
+</html>

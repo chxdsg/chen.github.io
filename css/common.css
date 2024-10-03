@@ -1,0 +1,31 @@
+.xialan{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.xialan ul{
+   border-top: 1px solid #d2d2d2;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.xialan ul li{
+     width: 25%; 
+    float: left;
+    text-align: center;
+}
+.xialan ul li a{
+    font-size: 30px;
+     color: #999999;
+}
+.xialan ul li a i{
+    font-size: 30px;
+}
+.xialan ul .active a{
+    color: #d8a452;
+}
